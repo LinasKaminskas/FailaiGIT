@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-wrapper {
+    float: left;
+}
+.menu-wrapper {
+    float: right;
+}
+.menu-wrapper ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu-wrapper ul li [type="button"] {
+    font-size: 12px;
+}
+.menu-wrapper ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    padding: 0px 9px;
+}
+.menu-wrapper ul {
+    margin-top: 45px;
+    height: auto;
+    text-align: center;
+}
+.logo-wrapper a {
+    height: auto;
+    text-align: center;
+}
+/*body*/
+.mentor-programa {
+    font-size: 16px;
+    color: darkgray;
+}
+.mentor-wrapper {
+    margin-top: 8rem;
+
+}
+.ineta {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+}
+.empowering {
+    margin-top: 10rem;
+}
+.women {
+    float: left;
+}
+.pirmoji {
+    font-size: 15px;
+    color: darkgray;
+}
+.lorem {
+    width: 35%;
+    float: right;
+    font-size: 13px;
+    color: darkgray;
+    height: auto;
+    text-align: justify;
+    margin-right: 11rem;
+    padding-bottom: 6rem;
+}
+@media only screen and (max-width: 900px) {
+    .lorem {
+        height: auto;
+        text-align: center;
+        float: none;
+        width: 100%;
+        padding-top: 7rem;
+    }
+}
+.mentors-wrapper {
+    height: auto;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 10rem;
+}
+.vadovai {
+    font-size: 11px;
+    color: darkgray;
+}
+@media only screen and (max-width: 900px) {
+    .mentors-wrapper {
+        height: auto;
+        text-align: center;
+        width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+.mentors-photo img {
+    min-height: 110px;
+    max-width: 110px;
+}
+.mentors-photo {
+    display: inline-block;
+}
