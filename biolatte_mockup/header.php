@@ -15,18 +15,13 @@
 </head>
 <body>
 <header>
-        <div class="header-pagalbinis">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-content-wrapper">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</header>
+<script>
+var a = 68;
+var b = 7;
+var c = a % b;
+console.log(c);
+alert('tekstas ' + c);
+</script>
 
 
 
@@ -42,4 +37,4 @@
 
 
 
-
+%
