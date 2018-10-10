@@ -208,7 +208,7 @@
     </div>
 </div>
 
-<a class="kodel-kada-wrapper">
+<!--<a class="kodel-kada-wrapper">
     <div class="pink_bg">
         <img src="../New_Women_go_tech/img/pink_bg.png" class="image_full">
         <img src="../New_Women_go_tech/img/pink_bg_mob.jpg" class="image_mobile">
@@ -236,7 +236,7 @@
             </p>
         </div>
     </div>
-</a>
+</a>-->
 
 
 
