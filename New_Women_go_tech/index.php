@@ -222,7 +222,7 @@
                 tinka ir vyrams ir moterims.
                 </p>
             </div>
-</div>
+            </div>
             <div class="col-md-6">
             <div class="kada-txt">
             <h4>Kada?</h4>
