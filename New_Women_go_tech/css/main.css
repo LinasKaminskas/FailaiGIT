@@ -132,58 +132,70 @@ body {
     width: 100%;
     padding-left: 0rem;
     padding-right: 0rem; } }
-.pink_bg {
-  position: relative;
-  color: whitesmoke; }
-  .pink_bg p {
-    font-size: 12px;
-    opacity: 0.5; }
-  .pink_bg img {
-    width: 100%;
-    height: auto; }
-  .pink_bg .kodel-txt {
-    position: absolute;
-    bottom: 32%;
-    left: 10%;
-    right: 55%; }
-  .pink_bg .kada-txt {
-    position: absolute;
-    bottom: 38%;
-    left: 55%;
-    right: 10%; }
+/*.pink_bg {
+    position: relative;
+    color: whitesmoke;
+    p {
+        font-size: 12px;
+        opacity: 0.5;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .kodel-txt {
+        position: absolute;
+        bottom: 32%;
+        left: 10%;
+        right: 55%;
 
+    }
+    .kada-txt {
+        position: absolute;
+        bottom: 38%;
+        left: 55%;
+        right: 10%;
+    }
+}
 .image_mobile {
-  display: none; }
-
+    display: none;
+}
 @media only screen and (max-width: 799px) {
-  .pink_bg h4 {
-    font-size: 15px; }
-  .pink_bg .kodel-txt {
-    width: 80%;
-    height: 63%;
-    text-align: unset; }
-  .pink_bg .kada-txt {
-    width: 80%;
-    height: 30%;
-    text-align: center;
-    left: 10%;
-    bottom: 11%; }
-
-  .kodel-txt {
-    width: 80%;
-    height: 30%;
-    text-align: center; }
-
-  .kada-txt {
-    position: absolute;
-    width: 80%;
-    height: 30%;
-    text-align: center; }
-
-  .image_full {
-    display: none; }
-
-  .image_mobile {
-    display: unset; } }
+    .pink_bg {
+        h4 {
+            font-size: 15px;
+        }
+        .kodel-txt {
+            width: 80%;
+            height: 63%;
+            text-align: unset;
+        }
+        .kada-txt {
+            width: 80%;
+            height: 30%;
+            text-align: center;
+            left: 10%;
+            bottom: 11%;
+        }
+    
+    }
+    .kodel-txt {
+        width: 80%;
+        height: 30%;
+        text-align: center;
+    }
+    .kada-txt {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        text-align: center;
+    }
+    .image_full {
+        display: none;
+    }
+    .image_mobile {
+        display: unset;
+    }
+}*/
 
 /*# sourceMappingURL=main.css.map */
