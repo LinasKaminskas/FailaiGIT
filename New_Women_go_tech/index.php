@@ -207,7 +207,37 @@
         </div>
     </div>
 </div>
-
+<div class="pink_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            <div class="kodel-txt">
+                <h4>Kodel?</h4>
+                <p>Galimybes! Technologijos - srytis, kurioje apstu galimybiu pradeti
+                ir kurti karjera. Kiekvienais metais vien ITsrityje sukuriama
+                daugiau nei 2 tukstanciai nauju darbo vietu.<br><br>
+                Gyvenimo pokyciai - nuo isaugusio pasitikejimo iki naujo darbo.
+                I-ojo sezono "Women Go Tech" dalyves gali tai patvirtinti.<br><br>
+                Jokiu stereotipu! Siekiame pakeisti TECHsektoriaus ivaizdi - jis
+                tinka ir vyrams ir moterims.
+                </p>
+            </div>
+</div>
+            <div class="col-md-6">
+            <div class="kada-txt">
+            <h4>Kada?</h4>
+            <p>Antrajas sezonui sulaukeme is ties labai daug paraisku ir mus
+                pasieke net 459 registraciju!!!<br><br>
+                177 kandidates buvo pakviestos pokalbiui. 71 mergina tapo sio
+                programos sezono ugdytinemis, kurios iki birzelio menesio dirbs
+                su savo mentoriais.<br><br>
+                Nauja programos sezona skelbsime 2018 m. rudeni.
+            </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--<a class="kodel-kada-wrapper">
     <div class="pink_bg">
         <img src="../New_Women_go_tech/img/pink_bg.png" class="image_full">

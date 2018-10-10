@@ -132,7 +132,44 @@ body {
     width: 100%;
     padding-left: 0rem;
     padding-right: 0rem; } }
-/*.pink_bg {
+.kodel-txt {
+  float: left;
+  font-size: 13px;
+  padding-top: 20%; }
+
+.kada-txt {
+  float: right;
+  font-size: 13px;
+  padding-top: 20%; }
+
+.pink_bg {
+  background-image: url(../img/pink_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10%; }
+  .pink_bg p {
+    opacity: 0.5;
+    color: white; }
+
+/*
+
+    .kodel-txt {
+        transform: translate( 0%, 70% );
+        color: white;
+        margin-left: 10%;
+        margin-right: 58%;
+        float: left;
+    }
+
+.pink_bg {
+    background-image: url(../img/pink_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+
+
+
+.pink_bg {
     position: relative;
     color: whitesmoke;
     p {
