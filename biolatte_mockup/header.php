@@ -10,7 +10,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="../biolatte_mockup/css/main.css"/>
-    <script src="../biolatte_mockup/js/main.js"></script>
 </head>
 <body>
 <header>
@@ -25,12 +24,14 @@
                         <div class="header-content-wrapper">
 
 
-
                         </div>
                 </div>
             </div>
         </div>
+
 </header>
+<script src="../biolatte_mockup/js/main.js"></script>
+
 
 
 
