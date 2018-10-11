@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../biolatte_mockup/css/main.css"/>
 </head>
 <body>
-<header>
+<header>o
         <div class="header-pagalbinis">
             <img class="img-wrapper" src="../biolatte_mockup/img/slider.png">
             <div class="Shape_5"></div>
