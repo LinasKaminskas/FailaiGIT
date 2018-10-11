@@ -20,7 +20,8 @@
                     <div class="col-md-12">
                         <div class="header-content-wrapper">
 
-                        </div>
+                                <img class="img-wrapper" src="../biolatte_mockup/img/slider.png">
+
                     </div>
                 </div>
             </div>
