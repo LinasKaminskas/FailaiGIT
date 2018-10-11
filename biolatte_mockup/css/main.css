@@ -10,20 +10,13 @@
   height: 10rem;
   top: 0; }
 
-@media only screen and (max-width: 1030px) {
-  .Shape_5 {
-    height: 8%; }
-
-  .taust_1 {
-    height: 8%; } }
 .taust_1 {
   background-image: url("../img/taust1.png");
-  background-repeat: no-repeat;
+  width: 1612px;
   position: absolute;
-  padding-top: 70px;
-  width: 100%;
-  height: auto;
-  top: 0; }
+  height: 89px;
+  top: 0;
+  max-width: 100%; }
 
 .Shape_5_copy {
   background-image: url("../img/shape5.png");
