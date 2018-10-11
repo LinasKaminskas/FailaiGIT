@@ -1,5 +1,41 @@
 .img-wrapper {
   width: 100%;
-  height: auto; }
+  top: 0; }
+
+.Shape_5 {
+  background-color: #a1a1a1;
+  opacity: 0.788;
+  position: absolute;
+  width: 100%;
+  height: 10rem;
+  top: 0; }
+
+@media only screen and (max-width: 1030px) {
+  .Shape_5 {
+    height: 8%; }
+
+  .taust_1 {
+    height: 8%; } }
+.taust_1 {
+  background-image: url("../img/taust1.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  padding-top: 70px;
+  width: 100%;
+  height: auto;
+  top: 0; }
+
+.Shape_5_copy {
+  background-image: url("../img/shape5.png");
+  opacity: 0.788;
+  position: absolute;
+  left: 958px;
+  top: 0;
+  width: 144px;
+  height: 68px; }
+
+@media only screen and (max-width: 1030px) {
+  .Shape_5 {
+    height: 8%; } }
 
 /*# sourceMappingURL=main.css.map */
