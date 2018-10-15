@@ -20,7 +20,7 @@
                     <div class="col-md-12">
                         <div class="header-content-wrapper">
 
-                            <h1 Id="trikampis">trtrtr</h1>
+                            <h1 Id="trikampis"></h1>
 
                         </div>
                     </div>
