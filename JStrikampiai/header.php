@@ -19,12 +19,18 @@
 
                             <table id="myTable1">
                                 <tr>
-                                    <td>Pirmas kampainis</td>
+                                    <td>Pirmas kamp</td>
                                 </tr>
                             </table>
 
+                            <div  id="kspal">Cia Tekstas</div>
+                            <button  onclick="mygtukas()">Spalva raudona</button>
 
-
+                            <p>
+                                <label>Fahrenheit</label>
+                                <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+                            </p>
+                            <p>Celcius: <span id="outputCelcius"></span></p>
                         </div>
                     </div>
                 </div>

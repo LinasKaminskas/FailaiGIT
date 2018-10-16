@@ -161,3 +161,12 @@ console.log(calc_sales(a,b,c));
 
 
 
+function mygtukas() {
+        document.getElementById("kspal").style.color = "red"
+
+}
+
+function temperatureConverter(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputCelcius").innerHTML = (valNum - 32) / 1.8;
+}
