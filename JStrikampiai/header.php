@@ -38,6 +38,8 @@
         <div class="3class"></div>
         <div class="row_paste">
 
+            <div id="laipsnis"></div>
+
         </div>
     </div>
 </div>

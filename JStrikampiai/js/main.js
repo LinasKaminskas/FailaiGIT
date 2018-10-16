@@ -83,5 +83,81 @@ while (counter <= 50){
 
 //17.5
 
+/*var x = 5;
+var k =2;
+var answer = Math.pow(x, k);
+document.getElementById("laipsnis").innerHTML= answer.toFixed(2);*/
+
+//17.6
+
+/*var  n = 3; //eiles
+var  k = 8; //kedes
+var s = 0; //viso
+for (var i=0; i<n; i++) {
+    s += k + i*2;
+}
+console.log(s);*/
+
+//17.7
+
+/*var k = 0; //keliamieji metai
+var m = 1898; //pradzia metu skaiciavimo
+var n = 1910; //pabaiga metu skaiciavimo
+for (k = m; k <= n; k++) {
+    if (k % 4 == 0  && k % 100 !==0 || k % 400 == 0  && k % 100 == 0)
+
+
+    console.log(k);
+}*/
+
+//17.8
+
+/*var numbers = -10;
+while (numbers< 19){
+    console.log(counter++);
+}*/
+
+/*var  numbers = 10;
+while (numbers < 40){
+    console.log(numbers += 2);
+}*/
+
+/*var numbers = 300;
+while (numbers <= 333) {
+    if (numbers % 2 != 0) {
+
+    }
+    console.log(numbers++);
+}*/
+
+/*var  numbers = 5;
+while (numbers <= 50) {
+    if (numbers % 5 === 0 && numbers % 3 === 0) {
+        console.log(numbers);
+
+    }
+    numbers++;
+}*/
+
+function helloWorld(lang) {
+    if (lang == 'fr') {
+        return 'Bonjuor taut le monde';
+    }
+    if (lang == 'ger'){
+        return 'Hallo Welt'
+    }
+    else {
+        return 'Hello World'
+    }
+}
+console.log(helloWorld('en'));
+//console.log(helloWorld('ger'));
+//console.log(helloWorld('fr'));
+
+function calc_sales(units_a, units_b, units_c) {
+    return units_a*79 + units_b * 129 + units_c * 699;
+}
+console.log(calc_sales(a,b,c));
+
 
 
