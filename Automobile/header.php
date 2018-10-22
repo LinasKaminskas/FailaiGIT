@@ -26,7 +26,7 @@
 
                             <table id="emptytable">
                                 <tr>
-                                    <th>Data-laikas keitimas</th>
+                                    <th>Data-laikas</th>
                                     <th>Numeris</th>
                                     <th>Atstumas</th>
                                     <th>Laikas</th>

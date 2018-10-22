@@ -16,7 +16,7 @@ function clear2() {
     cell1.innerHTML = kdata;
     cell2.innerHTML = knumeris;
     cell3.innerHTML = katstumas;
-    cell4.innerHTML = klaikas-keitimas;
+    cell4.innerHTML = klaikas;
 
     document.getElementById("form-wrapper").reset();
 
