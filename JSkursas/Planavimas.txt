@@ -1,0 +1,9 @@
+1.Sukurti du mygtukus: "Pradiniai duomenys", "Rasti max";
+
+2.Sukurti lentele;
+
+3.Paspaudus mygtuka "Pradiniai duomenys" arspausdinti duomenis lenteleje;
+
+4.Paspaudus mygtuka "Rasti max" apskaiciuoti figuru turius.
+
+5.Figura kurios turis didziausias atspausdinti kita spalva (<td class="raudona"></td>);

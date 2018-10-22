@@ -7,7 +7,7 @@ break }
 var suma = suma * a [i];
     console.log(suma);
 }*/
-let b = [10, 20, 0, 30, -15, 50, 150, -88, 5];
+/*let b = [10, 20, 0, 30, -15, 50, 150, -88, 5];
 let suma = 1;
 for (let i = 0; i<b.length; i++) {
 
@@ -18,7 +18,7 @@ for (let i = 0; i<b.length; i++) {
 
     console.log(b[i]);
 
-}
+}*/
 
 
 /*function calculateDogAge(age) {
@@ -28,3 +28,46 @@ for (let i = 0; i<b.length; i++) {
 calculateDogAge(1);
 calculateDogAge(8);
 calculateDogAge(20);*/
+
+
+//type="text/javascripti"
+
+var figuros = [
+    {ilgis: 2, plotis: 5, aukstis: 3},
+    {ilgis: 3, plotis: 2, aukstis: 6},
+    {ilgis: 1, plotis: 5, aukstis: 5}
+];
+
+function pradiniai() {
+    var k = '<tbody>'
+    for (i = 0; i < figuros.length; i++) {
+        k += '<tr>';
+        k += '<td>' + figuros[i].ilgis + '</td>';
+        k += '<td>' + figuros[i].plotis + '</td>';
+        k += '<td>' + figuros[i].aukstis + '</td>';
+        k += '</tr>';
+        k+='</body>';
+    }
+    document.getElementById('tableData').innerHTML = k;
+}
+
+function Rmax() {
+    var k = '<tbody>'
+    for (i = 0; i < figuros.length; i++) {
+        k += '<tr>';
+        k += '<td class="raudona">' + figuros[i].ilgis + '</td>';
+        k += '<td class="raudona">' + figuros[i].plotis + '</td>';
+        k += '<td class="raudona">' + figuros[i].aukstis + '</td>';
+
+        var  turis = figuros[i].ilgis * figuros[i].plotis * figuros[i].aukstis;
+        figuros.splice(turis);
+        k += ' <td class="raudona">' + turis + '</td>';
+
+        console.log(Math.max(turis));
+
+        k += '</tr>';
+        k+='</body>';
+
+    }
+    document.getElementById('tableData').innerHTML = k;
+}
