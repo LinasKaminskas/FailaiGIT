@@ -1,3 +1,6 @@
+
+
+
 .img-wrapper {
   width: 100%;
   top: 0;
@@ -5,7 +8,7 @@
 .Shape_5 {
   background-color: rgb(161, 161, 161);
   opacity: 0.788;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 10rem;
   top: 0;
@@ -13,26 +16,59 @@
 
 .taust_1 {
   background-image: url("../img/taust1.png");
+  background-repeat: no-repeat;
   width: 1612px;
   position: absolute;
   height: 89px;
   top: 0;
- max-width: 100%;
-
+ max-width: 85%;
 }
-.Shape_5_copy {
-   background-image: url("../img/shape5.png");
-   opacity: 0.788;
-   position: absolute;
-   left: 958px;
-   top: 0;
-   width: 144px;
-   height: 68px;
- }
-
-@media only screen and (max-width: 1030px) {
-  .Shape_5 {
-    height: max(8%);
+@media screen and (max-width: 900px) {
+  .taust_1 ul {
+    height: auto;
+    text-align: center;
+    left: 0 !important;
   }
+}
+
+.Login____Register_____Facebook ul {
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(36, 136, 5);
+  line-height: 1.2;
+  position: fixed;
+  left: 49%;
+  top: 21.513px;
+  z-index: 203;
+}
+.login-wraper  li {
+  display: inline;
+  padding: 5px;
+}
+.login-wraper li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cart {
+  background-image: url("../img/cart.png");
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 1030px;
+  top: 0px;
+  width: 105px;
+  height: 50px;
+  z-index: 201;
+}
+
+.Shape_3 {
+  background-color: rgb(36, 136, 5);
+  opacity: 0.369;
+  position: absolute;
+  left: 1000px;
+  top: 5px;
+  width: 3px;
+  height: 59px;
+  z-index: 204;
 }
 

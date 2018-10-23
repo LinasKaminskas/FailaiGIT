@@ -12,11 +12,25 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../biolatte_mockup/css/main.css"/>
 </head>
 <body>
-<header>o
+<header>
+
         <div class="header-pagalbinis">
             <img class="img-wrapper" src="../biolatte_mockup/img/slider.png">
             <div class="Shape_5"></div>
-            <div class="taust_1"></div>
+            <div class="taust_1">
+                <div class="login-wraper">
+                <div class="Login____Register_____Facebook">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="cart"></a>
+            <div class="Shape_3"></div>
+        </div>
 
             <div class="container">
                 <div class="row">

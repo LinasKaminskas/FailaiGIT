@@ -59,24 +59,40 @@ function Rmax() {
         k += '<td class="raudona">' + figuros[i].plotis + '</td>';
         k += '<td class="raudona">' + figuros[i].aukstis + '</td>';
 
-        var  turis1 = figuros[i].ilgis * figuros[i].plotis * figuros[i].aukstis;
-        figuros.splice(turis1);
-        k += '<td class="raudona">' + turis1 + '</td>';
+        var  turis= [figuros[i].ilgis * figuros[i].plotis * figuros[i].aukstis];
+
+        k += '<td class="raudona">' + turis+ '</td>';
+        figuros.splice(turis);
 
         k += '</tr>';
         k+='</body>';
 
 
-        //var maxt = (figuros[turis]));
-        //document.getElementById("demo").innerHTML = maxt;
-        //console.log(maxt);
+        var maxt =  Math.max(...turis);
+        document.getElementById("demo").innerHTML = maxt;
+        console.log(maxt);
 
-        var max = figuros.reduce(function (prev, current) {
-            return (prev.turis1 > current.turis1) ? prev : current
-        });
-        console.log(max);
 
     }
     document.getElementById('tableData').innerHTML = k;
 
 }
+//klases darbas
+function daugyba(skaicius, kskaicius, tskaicius) {
+    return skaicius*kskaicius*tskaicius;
+}
+console.log(daugyba (5, 20, 68));
+
+var masyvas = [-55, 0, -5, -8, -25]
+var didsk = Math.max(...masyvas);
+console.log(didsk);
+var min = Math.min(...masyvas);
+console.log(min);
+
+//function masyvasdid(masyv) {
+
+
+
+
+
+
