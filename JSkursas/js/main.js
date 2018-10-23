@@ -59,15 +59,24 @@ function Rmax() {
         k += '<td class="raudona">' + figuros[i].plotis + '</td>';
         k += '<td class="raudona">' + figuros[i].aukstis + '</td>';
 
-        var  turis = figuros[i].ilgis * figuros[i].plotis * figuros[i].aukstis;
-        figuros.splice(turis);
-        k += ' <td class="raudona">' + turis + '</td>';
-
-        console.log(Math.max(turis));
+        var  turis1 = figuros[i].ilgis * figuros[i].plotis * figuros[i].aukstis;
+        figuros.splice(turis1);
+        k += '<td class="raudona">' + turis1 + '</td>';
 
         k += '</tr>';
         k+='</body>';
 
+
+        //var maxt = (figuros[turis]));
+        //document.getElementById("demo").innerHTML = maxt;
+        //console.log(maxt);
+
+        var max = figuros.reduce(function (prev, current) {
+            return (prev.turis1 > current.turis1) ? prev : current
+        });
+        console.log(max);
+
     }
     document.getElementById('tableData').innerHTML = k;
+
 }
