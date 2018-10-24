@@ -1,3 +1,6 @@
+
+"Ciklo valdymas : break ir continue."
+
 /*var a = [10, 20, 0, 30, -15, 50, 150, -88, 5];
 var suma = 1;
 for (var i=0; i<a.length; i++) {
@@ -39,7 +42,7 @@ var figuros = [
 ];
 
 function pradiniai() {
-    var k = '<tbody>'
+    var k = '<tbody>';
     for (i = 0; i < figuros.length; i++) {
         k += '<tr>';
         k += '<td>' + figuros[i].ilgis + '</td>';
@@ -52,7 +55,7 @@ function pradiniai() {
 }
 
 function Rmax() {
-    var k = '<tbody>'
+    var k = '<tbody>';
     for (i = 0; i < figuros.length; i++) {
         k += '<tr>';
         k += '<td class="raudona">' + figuros[i].ilgis + '</td>';
@@ -77,13 +80,14 @@ function Rmax() {
     document.getElementById('tableData').innerHTML = k;
 
 }
-//klases darbas
+"Klases darbas:";
+
 function daugyba(skaicius, kskaicius, tskaicius) {
     return skaicius*kskaicius*tskaicius;
 }
 console.log(daugyba (5, 20, 68));
 
-var masyvas = [-55, 0, -5, -8, -25]
+var masyvas = [-55, 0, -5, -8, -25];
 var didsk = Math.max(...masyvas);
 console.log(didsk);
 var min = Math.min(...masyvas);
