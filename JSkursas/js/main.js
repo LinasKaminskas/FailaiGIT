@@ -35,6 +35,17 @@ calculateDogAge(20);*/
 
 //type="text/javascripti"
 
+/*( function( $ ) {
+    $( document ).ready(function() {
+
+        // kodas rašosi čia
+
+    });
+
+} )( jQuery );*/
+
+
+
 var figuros = [
     {ilgis: 2, plotis: 5, aukstis: 3},
     {ilgis: 3, plotis: 2, aukstis: 6},
@@ -73,7 +84,7 @@ function Rmax() {
 
         var maxt =  Math.max(...turis);
         document.getElementById("demo").innerHTML = maxt;
-      //  console.log(maxt);
+         console.log(maxt);
 
 
     }
@@ -99,20 +110,24 @@ var min = Math.min(...masyvas);
     $( document ).ready(function() {
 
         // kodas rašosi čia
-        //$('h3').hide();
-
-
-        function siauras() {
-            $('p').animate({width: '50%', marginLeft: '25%'});
-        }
-        function platus() {
-            $('p').animate({width: '100%', marginLeft: '0'}, 6000);
-        }
-
+        $('.siauras').click(function () {
+          $('p').animate({width: '30%', marginLeft: '10%'},5000);
+          $('.siauras').css('background-color', 'blue');
+        })
+        $('.platus').click(function () {
+            $('p').animate({width: '90%', marginRight: '10%'});
+            $('.platus').css('background-color', 'red');
+        })
 
     });
 
 } )( jQuery );
+
+function siauras() {
+    $('p').animate({width: '50%', marginLeft: '25%'});
+
+
+}
 
 "Namu darbas"
 
@@ -143,6 +158,53 @@ for (i=0; i<library.length; i++){
     }
 }
 
+( function( $ ) {
+    $( document ).ready(function() {
+
+        // kodas rašosi čia
+var Productname = $('<select></select>').attr("red", 'Apple').text("Apple");
+$('#c1').empty().append(Productname);
+var Productname = $('<select></select>').attr('green', 'Grass').text("Grass");
+$('#c2').empty().append(Productname);
+var Productname = $('<select></select>').attr('white', 'Snow').text('Snow');
+$('#c3').empty().append(Productname);
+var Productname = $('<select></select>').attr("blue", "Sky").text('Sky');
+$('#c4').empty().append(Productname);
+
+    });
+
+    $('#button1').click(function (event) {
+        event.preventDefault();
+        $('.disabledCheckboxes').prop('disabled', false);
+    })
+
+} )( jQuery );
+
+( function( $ ) {
+    $( document ).ready(function() {
+
+        // kodas rašosi čia
+
+    });
+
+} )( jQuery );
+
+var a = 1;
+function append() {
+    $('tbody').append('<tr><td>Append</td><td>' + (a++) + '</td></tr>');
+    $('.redred').css('background-color', 'red');
+    $(':button').toggleClass('redred');
+
+    //$('.redred').removeClass('background-color', 'blue');
+
+}
+var g = 1;
+function after() {
+    $('table').after('<p>After ' + g + '</p>');
+}
 
 
-
+var z = 1;
+function prepend() {
+    $('tbody').prepend('<tr><td>Prepend</td><td>' + (z++) + '</td></tr>');
+}
