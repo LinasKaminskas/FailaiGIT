@@ -49,7 +49,7 @@ function pradiniai() {
         k += '<td>' + figuros[i].plotis + '</td>';
         k += '<td>' + figuros[i].aukstis + '</td>';
         k += '</tr>';
-        k+='</body>';
+        k +='</body>';
     }
     document.getElementById('tableData').innerHTML = k;
 }
@@ -73,7 +73,7 @@ function Rmax() {
 
         var maxt =  Math.max(...turis);
         document.getElementById("demo").innerHTML = maxt;
-        console.log(maxt);
+      //  console.log(maxt);
 
 
     }
@@ -85,17 +85,63 @@ function Rmax() {
 function daugyba(skaicius, kskaicius, tskaicius) {
     return skaicius*kskaicius*tskaicius;
 }
-console.log(daugyba (5, 20, 68));
+//console.log(daugyba (5, 20, 68));
 
 var masyvas = [-55, 0, -5, -8, -25];
 var didsk = Math.max(...masyvas);
-console.log(didsk);
+//console.log(didsk);
 var min = Math.min(...masyvas);
-console.log(min);
+//console.log(min);
 
-//function masyvasdid(masyv) {
+//function masyvasdid(masyv)
+
+( function( $ ) {
+    $( document ).ready(function() {
+
+        // kodas rašosi čia
+        //$('h3').hide();
 
 
+        function siauras() {
+            $('p').animate({width: '50%', marginLeft: '25%'});
+        }
+        function platus() {
+            $('p').animate({width: '100%', marginLeft: '0'}, 6000);
+        }
+
+
+    });
+
+} )( jQuery );
+
+"Namu darbas"
+
+var library = [
+    {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true
+    },
+    {
+        author: 'Suzanne Collins',
+        title:  'Mockingjay: The Final Book of The Hunger Games',
+        readingStatus: false
+    }];
+
+for (i=0; i<library.length; i++){
+    var knyga = "'" + library[i].title + "'" + ' pagal ' + library[i].author + ".";
+    if (library[i].readingStatus) {
+        console.log("Perskaityta" + knyga);
+    }
+    else {
+        console.log("Dar reikia perskaityti" + knyga);
+    }
+}
 
 
 
