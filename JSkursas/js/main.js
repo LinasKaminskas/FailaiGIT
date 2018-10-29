@@ -193,9 +193,9 @@ var a = 1;
 function append() {
     $('tbody').append('<tr><td>Append</td><td>' + (a++) + '</td></tr>');
     $('.redred').css('background-color', 'red');
-    $(':button').toggleClass('redred');
+    //$(':button').toggleClass('redred');
 
-    $('.redred').removeClass('background-color', 'blue');
+    $(':button').removeClass('redred');
 
 }
 var g = 1;
