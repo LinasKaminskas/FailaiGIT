@@ -43,7 +43,7 @@
                     <input type="checkbox" class="disabledCheckboxes" disabled="disabled">Green
                     <p><input id="button1" type="button" value="Click to enable check boxes"/></p>
 
-                    <button class="redred"  onclick="append()">Append</button>
+                    <button class="redred"  onclick="append()">Appendd</button>
                     <button onclick="after()">After</button>
                     <button onclick="prepend()">Prepend</button>
 

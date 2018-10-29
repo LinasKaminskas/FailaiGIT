@@ -17,7 +17,7 @@
                     <div class="col-md-12">
                         <div class="header-content-wrapper">
 
-                            <h3>Figuros</h3>
+                            <h3>Figuross</h3>
 
 
 

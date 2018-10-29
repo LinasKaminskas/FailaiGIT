@@ -195,7 +195,7 @@ function append() {
     $('.redred').css('background-color', 'red');
     $(':button').toggleClass('redred');
 
-    //$('.redred').removeClass('background-color', 'blue');
+    $('.redred').removeClass('background-color', 'blue');
 
 }
 var g = 1;
