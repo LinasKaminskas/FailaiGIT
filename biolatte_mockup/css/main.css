@@ -30,7 +30,7 @@
   color: #248805;
   line-height: 1.2;
   position: fixed;
-  left: 49%;
+  left: 50%;
   top: 21.513px;
   z-index: 203; }
 
@@ -46,7 +46,7 @@
   background-image: url("../img/cart.png");
   background-repeat: no-repeat;
   position: fixed;
-  left: 1030px;
+  left: 76%;
   top: 0px;
   width: 105px;
   height: 50px;
@@ -56,7 +56,7 @@
   background-color: #248805;
   opacity: 0.369;
   position: absolute;
-  left: 1000px;
+  left: 75%;
   top: 5px;
   width: 3px;
   height: 59px;

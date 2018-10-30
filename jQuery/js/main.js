@@ -19,9 +19,13 @@
         });
 
         //Kitas uzdavinys
-        $('#menu').slicknav ({
+        $(function () {
+            $('#menu').slicknav({
+                duration: 2000,
 
-        })
+            });
+
+        });
 
 
 
