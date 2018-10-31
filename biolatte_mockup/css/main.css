@@ -8,22 +8,19 @@
   position: fixed;
   width: 100%;
   height: 10rem;
-  top: 0; }
+  top: 0;
+  z-index: 10; }
 
 .taust_1 {
   background-image: url("../img/taust1.png");
   background-repeat: no-repeat;
   width: 1612px;
-  position: absolute;
+  position: fixed;
   height: 89px;
   top: 0;
-  max-width: 85%; }
+  max-width: 85%;
+  z-index: 20; }
 
-@media screen and (max-width: 900px) {
-  .taust_1 ul {
-    height: auto;
-    text-align: center;
-    left: 0 !important; } }
 .Login____Register_____Facebook ul {
   font-size: 25px;
   font-family: "Myriad Pro";
@@ -31,8 +28,7 @@
   line-height: 1.2;
   position: fixed;
   left: 50%;
-  top: 21.513px;
-  z-index: 203; }
+  top: 21.513px; }
 
 .login-wraper li {
   display: inline;
@@ -50,16 +46,33 @@
   top: 0px;
   width: 105px;
   height: 50px;
-  z-index: 201; }
+  z-index: 20; }
 
 .Shape_3 {
   background-color: #248805;
   opacity: 0.369;
-  position: absolute;
+  position: fixed;
   left: 75%;
   top: 5px;
   width: 3px;
   height: 59px;
-  z-index: 204; }
+  z-index: 20; }
+
+.owl-prev {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  background: none !important;
+  outline: none !important; }
+
+.owl-next {
+  position: absolute;
+  top: 300px;
+  right: 0;
+  background: none !important;
+  outline: none !important; }
+
+#mygtukas {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
