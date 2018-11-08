@@ -27,7 +27,7 @@
                 </div>
                 </div>
             </div>
-            <a href="#" class="cart"></a>
+            <a href="#" class="cart"></a>o
             <div class="Shape_3"></div>
         </div>
     <!--Carousel slider-->
